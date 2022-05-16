@@ -39,7 +39,7 @@ h1,h2 {
     background-color: #23272A;
 }
 
-h3 {
+.menu a {
     flex-basis: 100px;
     background-color: aqua;
     border: 1px solid coral;
@@ -54,7 +54,7 @@ h4 {
     min-height: 60px;
 }
 
-a {
+.link a {
     text-decoration: none;
     margin-bottom: 6px;
     min-height: 25px;
