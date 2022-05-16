@@ -28,27 +28,44 @@ section {
     padding-top: 150px;
 }
 
+footer {
+    background-color: #23272A;
+    min-height: 700px;
+}
+
 h1,h2 {
     font-size: 50px;
+    min-height: 80px;
+    background-color: #23272A;
 }
 
 h3 {
     flex-basis: 100px;
     background-color: aqua;
     border: 1px solid coral;
+    margin-right: 5px;
+    min-height: 20px;
 }
 
 h4 {
     font-size: 25px;
     background-color: #678DF3;
     margin-bottom: 30px;
+    min-height: 60px;
 }
 
+a {
+    text-decoration: none;
+    margin-bottom: 6px;
+    min-height: 25px;
+    background-color: chocolate;
+}
 
 p {
     margin-top: 15px;
-    line-height: 27px;
     font-size: 18px;
+    min-height: 80px;
+    background-color: brown;
 }
 
 /* Utilis */
@@ -61,8 +78,16 @@ p {
     display: flex;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .space-between {
     justify-content: space-between;
+}
+
+.nostretch {
+    align-items: flex-start;
 }
 
 .j-center {
@@ -86,6 +111,7 @@ p {
     flex-basis: 100px;
     background-color: aqua;
     border: 1px solid coral;
+    min-height: 20px;
 }
 
 /* header section */
@@ -95,11 +121,11 @@ p {
     text-align: center;
     background-color: blueviolet;
     min-height: 400px;
-    padding: 20px
+    padding: 30px
 }
 
 #text-header h1 {
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 .bar {
@@ -156,4 +182,52 @@ p {
     background-color: #678DF3;
     padding: 10px;
     margin-bottom: 70px;
+    min-height: 35px;
+    width: 200px;
+}
+
+/* footer */
+.footer {
+    padding-top: 100px; ;
+    margin-bottom: 25px;
+}
+
+.information {
+    flex-basis: 20%;
+    background-color: #678DF3;
+    margin-right: 10%;
+}
+
+.link {
+    flex-basis: calc(65%/4);
+    background-color: #678DF3;
+    margin-right: 3%;
+}
+
+.language {
+    min-height: 30px;
+    background-color: azure;
+    margin-bottom: 10px;
+}
+
+.social {
+    min-height: 40px;
+    background-color: azure;
+}
+
+.app {
+    flex-basis: 40px;
+    min-height: 40px;
+    margin-right: 5px;
+    background-color: olivedrab;
+}
+
+.end-bar {
+    padding-top: 25px;
+}
+
+#sign-in {
+    min-height: 30px;
+    background-color: aqua;
+    min-width: 80px;
 }
