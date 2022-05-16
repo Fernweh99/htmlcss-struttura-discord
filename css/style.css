@@ -16,6 +16,7 @@ header{
     min-height: 600px;
     padding-top: 20px;
     color: white;
+    margin-bottom: 150px;
 }
 
 nav {
@@ -30,6 +31,13 @@ h3 {
     border: 1px solid coral;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+p {
+    margin-top: 15px;
+}
 /* Utilis */
 .container {
     max-width: 1200px;
@@ -78,7 +86,6 @@ h3 {
 }
 
 #text-header h1 {
-    font-size: 50px;
     padding: 30px 0;
 }
 
@@ -92,4 +99,22 @@ h3 {
     flex-basis: 40%;
     min-height: 40px;
     margin: 0 15px;
+}
+
+/* main */
+.white {
+    background-color: white;
+    min-height: 700px;
+}
+
+.white figure {
+    flex-basis: 55%;
+    background-color: gray;
+    min-height: 450px;
+}
+
+.text {
+    flex-basis: 30%;
+    background-color: gray;
+    min-height: 450px;
 }
