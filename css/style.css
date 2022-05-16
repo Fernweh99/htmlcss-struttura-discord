@@ -11,8 +11,59 @@ body {
     font-family: sans-serif;
 }
 
+header{
+    background-color: #678DF3;
+    min-height: 600px;
+    padding-top: 20px;
+    color: white;
+}
+
+nav {
+    margin-bottom: 50px;
+    background-color: blueviolet;
+    padding: 10px 0;
+}
+
+h3 {
+    flex-basis: 100px;
+    background-color: aqua;
+    border: 1px solid coral;
+}
+
 /* Utilis */
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+/* Header nav*/
+.logo {
+    flex-basis: 100px;
+    background-color: aqua;
+    border: 1px solid coral;
+    min-height: 20px;
+} 
+
+.menu {
+    flex-basis: 500px;
+}
+
+
+#log-in {
+    flex-basis: 100px;
+    background-color: aqua;
+    border: 1px solid coral;
+}
+
